@@ -1,18 +1,18 @@
 # Sistema Inteligente de Manutenção Preditiva com Algoritmos Não-Lineares para IoT Industrial
 
-[cite_start]Este projeto consiste em uma Prova de Conceito (PoC) de um modelo de Machine Learning voltado para a manutenção preditiva de ativos industriais críticos, especificamente uma Autoclave de produção[cite: 2]. [cite_start]O objetivo central é identificar padrões sutis de desgaste nos dados dos sensores antes que ocorram falhas e paradas não programadas[cite: 2, 3].
+Este projeto consiste em uma Prova de Conceito (PoC) de um modelo de Machine Learning voltado para a manutenção preditiva de ativos industriais críticos, especificamente uma Autoclave de produção. O objetivo central é identificar padrões sutis de desgaste nos dados dos sensores antes que ocorram falhas e paradas não programadas.
 
 ##  Contexto do Projeto
-[cite_start]O trabalho foi desenvolvido em parceria com a empresa **Habilita Soluções em Automação** para resolver a ineficiência da manutenção tradicional, que gera altos custos operacionais com interrupções imprevistas[cite: 1, 2].
+O trabalho foi desenvolvido em parceria com a empresa **Habilita Soluções em Automação** para resolver a ineficiência da manutenção tradicional, que gera altos custos operacionais com interrupções imprevistas.
 
-[cite_start]O sistema utiliza um CLP (Controlador Lógico Programável) que envia dados via protocolo **MQTT** para um broker Mosquitto, permitindo o monitoramento em tempo real[cite: 5].
+O sistema utiliza um CLP (Controlador Lógico Programável) que envia dados via protocolo **MQTT** para um broker Mosquitto, permitindo o monitoramento em tempo real.
 
 ##  Tecnologias e Ferramentas
 - **Linguagem:** Python
 - **Bibliotecas de ML:** Scikit-learn (Random Forest, PCA, StandardScaler)
 - **Análise de Dados:** Pandas, NumPy
 - **Visualização:** Matplotlib, Seaborn
-- [cite_start]**Infraestrutura:** Supabase (PostgreSQL), Protocolo MQTT (Mosquitto) [cite: 5]
+- **Infraestrutura:** Supabase (PostgreSQL), Protocolo MQTT (Mosquitto) 
 
 ##   Metodologia de Machine Learning
 O pipeline de dados implementado no projeto segue as seguintes etapas:
